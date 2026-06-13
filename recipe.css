@@ -24,7 +24,7 @@ h2 {
     text-align: left;
     font-size: 18pt;
     font-weight: normal;
-    display: table; /* Extra feature #5: shrinks bg to text width only */
+   /* display: table; /* Extra feature #5: shrinks bg to text width only */
 }
 abbr {
     text-decoration: underline;
