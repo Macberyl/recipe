@@ -1,27 +1,12 @@
-/*
- * recipe.css
- * Style sheet for Grandma's Lemon Meringue Pie recipe page (pie.html)
- * CSSE 290: Web Programming - Homework Assignment 1
- *
- * Extra features implemented:
- * #4 - Wide headings: 0.25em letter-spacing on all headings
- * #5 - Tight heading background: gray background only behind heading text width
- */
-
-/* ---- Page body ---- */
 body {
     background-color: white;
     color: #404040;
     font-family: Georgia, Garamond, serif;
     font-size: 11pt;
 }
-
-/* ---- Links ---- */
 a {
     color: #A4A400;
 }
-
-/* ---- All headings shared styles ---- */
 h1, h2 {
     color: #A4A400;
     background-color: #F0F0F0;
@@ -29,38 +14,28 @@ h1, h2 {
     text-decoration: underline;
     letter-spacing: 0.25em; /* Extra feature #4: wide heading letters */
 }
-
-/* ---- Main page heading ---- */
 h1 {
     text-align: center;
     font-size: 22pt;
     font-weight: bold;
     display: block;
 }
-
-/* ---- Section sub-headings ---- */
 h2 {
     text-align: left;
     font-size: 18pt;
     font-weight: normal;
     display: table; /* Extra feature #5: shrinks bg to text width only */
 }
-
-/* ---- Abbreviations (tbsp, tsp) ---- */
 abbr {
     text-decoration: underline;
     cursor: help;
 }
-
-/* ---- User comment blockquotes ---- */
 blockquote {
     background-color: #FFFFA8;
     font-style: italic;
     margin-left: 2em;
     padding: 0.4em 0.8em;
 }
-
-/* ---- Pre-formatted copyright block ---- */
 pre {
     font-family: monospace;
 }
